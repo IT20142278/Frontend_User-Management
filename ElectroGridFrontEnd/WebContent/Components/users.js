@@ -29,7 +29,7 @@ $(document).on("click", "#btnSave", function(event)
  	{
  		url : "UserAPI",
  		type : type,
- 		data : $("#formItem").serialize(),
+ 		data : (decodeURIComponent($("#formItem").serialize())),
  		dataType : "text",
  		complete : function(response, status)
  		{
