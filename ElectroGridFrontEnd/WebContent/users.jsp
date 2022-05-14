@@ -91,7 +91,7 @@ pageEncoding="ISO-8859-1"%>
 
                 <div class="d-flex justify-content-center">
                   
-                    <input id="btnSave" name="btnSave" type="button" value="Add User" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">
+                    <input id="btnSave" name="btnSave" type="button" value="Add User" class="btn btn-primary btn-block btn-lg gradient-custom-4 text-body">
  		<input type="hidden" id="hidItemIDSave" name="hidItemIDSave" value="">
                 </div>
 
